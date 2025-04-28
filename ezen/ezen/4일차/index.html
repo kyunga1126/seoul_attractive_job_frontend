@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        img {
+            vertical-align: middle;
+        }
+        .promotion {
+            .promotion-list {
+                .img-box {
+                    width: 400px;
+                    position: relative;
+                    a{
+                        img{
+                        width: 100%;
+                        }
+                    }
+                }
+                .img-box::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 50%;
+                    background: green;
+                    position: absolute;
+                    bottom: 0;
+                    
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="promotion">
+        <div class="promotion-list">
+            <div class="img-box">
+                <a href="#">
+                    <img src="./img/0522_파바스토리_썸네일_5.jpg" alt="">
+                </a>
+            </div>
+            <div class="text-box">
+                <h3><a href="#">파리바게트 video</a></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
