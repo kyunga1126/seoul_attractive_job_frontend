@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 임의의 숫자 발생시키기
+        // 0~1
+        // let rnd = Math.random();
+
+        // 0~10
+        // let rnd = Math.random()*10;
+
+        // 소수점 버리기
+        // let rnd = Math.floor(Math.random()*10);
+        // document.write(rnd);
+
+        // 메뉴
+        let menu = ["도시락","김밥","서브웨이","순대국"];
+        let rnd = Math.floor(Math.random()*menu.length);
+        document.write(rnd+"<br>");
+        document.writeln(`오늘의 추천 메뉴는 ${menu[rnd]}`);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
