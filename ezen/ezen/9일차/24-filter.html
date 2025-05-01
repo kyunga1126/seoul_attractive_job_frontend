@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let friends = [
+            {name:"홍길동", age:23, gender:true},
+            {name:"김철수", age:25, gender:true},
+            {name:"이영희", age:50, gender:false},
+            {name:"이은영", age:20, gender:false},
+            {name:"유통", age:62, gender:true}
+        ]
+        // friends에서 gender가 true 찾아서 man에 넣기
+        let man = friends.filter(g => { 
+            return g.gender == true}
+        ); console.log(man);
+
+        // friends에서 age가 25보다 크고 index값이 2보다 큰 요소 찾아서 result에 넣기
+        let result = friends.filter((n, id)=> {
+           return n.age > 25 && id>2
+        }); console.log(result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
