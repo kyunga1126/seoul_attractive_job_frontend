@@ -8,3 +8,4 @@
 #### 주차별 교육과정
 1주차 : html / css <br>
 2주차 : Git / JavaScript
+3주차 : JavaScript
